@@ -292,6 +292,29 @@ textarea {
   font-weight: bold; /* Make the title bold */
 }
 
+.home-hero__cta {
+  display: flex;
+  align-items: center;
+}
+
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn--med {
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.cta-image {
+  width: 100px; /* Adjust as needed */
+  height: 100px;
+  margin-left: 100px; /* Adjust as needed */
+}
+
+
+
 
 
 .projects__row {
