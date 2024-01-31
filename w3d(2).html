@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>stock app</title>
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.153.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.153.0/examples/jsm/"
+        }
+      }
+    </script>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+<style>
+.space {
+  height: 20px; /* Adjust the height to create the desired space */
+}
+#blenderScene {
+    width: 1000px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    margin: auto; /* Center the box horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content inside the div vertically and horizontally */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure the contents also conform to the rounded corners */
+    box-shadow: 0 2px 4px rgba(214, 174, 174, 0.1); /* Optional: Adds a subtle shadow for depth */
+}
+
+
+</style>
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="Aymen.jpg"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">touidjine Aimen</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Mechanical spider with Blender</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Its six legs, equipped with precision-machined joints and hydraulics, allow it to traverse diverse terrains with remarkable agility and grace. The spider's eerie yet captivating presence captures the imagination, blending the realms of science and art in a mesmerizing display of technological prowess.
+
+
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="spider/spiderr.gltf" class="btn btn--bg" download>Download File</a>
+           <div class="space"></div>
+
+          <div id="blenderScene" class="project-details__showcase-img" style="border-radius: 30px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);"></div>
+    
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                The mechanical spider, brought to life through the intricate craftsmanship of Blender, is a marvel of engineering and design. With its sleek, metallic body and meticulously articulated limbs, this arachnid-inspired creation seamlessly blends the worlds of technology and nature. Each joint and appendage has been painstakingly modeled and animated, giving the spider a fluid and lifelike movement that mimics its biological counterparts. Its metallic exoskeleton gleams with a polished finish, while its sensor-laden eyes gleam with an otherworldly intelligence. This mechanical spider serves as a testament to the limitless possibilities of digital art and showcases the power of Blender in bringing imagination to life.
+              <p class="project-details__desc-para">
+              
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">Blender</div>
+                <div class="skills__skill">Three.JS</div>
+                <div class="skills__skill">JS</div>
+                
+                
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">See Live</h3>
+              <a
+                href="#"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >Live Link</a
+              >
+              <a
+                href="#"
+                class="btn btn--med btn--theme-inv project-details__links-btn"
+                target="_blank"
+                >Code Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Touidjine Aimen</h4>
+            <p class="main-footer__short-desc">
+             it is so easy to choose a partner , but very hard to accept the results !
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2023. Made by
+          <a rel="noreferrer" target="_blank" href="
+            >Touidjine Aimen</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+    <div id="progress-container">
+      <div id="progress">LOADING 0/100</div>
+    </div>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          var script = document.createElement('script');
+          script.type = 'module';
+          script.src = './main2.js';
+          document.getElementById('blenderScene').appendChild(script);
+      });
+    </script>
+   
+  </body>
+</html>
